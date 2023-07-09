@@ -1,0 +1,6 @@
+framework module Pods_DesafioChatgpt {
+  umbrella header "Pods-DesafioChatgpt-umbrella.h"
+
+  export *
+  module * { export * }
+}

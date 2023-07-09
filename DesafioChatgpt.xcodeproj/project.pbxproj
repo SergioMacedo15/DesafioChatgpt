@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B85A228A28A655A93C86ED5 /* Pods_DesafioChatgpt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53112A4CFFC75CF4FC942 /* Pods_DesafioChatgpt.framework */; };
+		311A34B72A51CB6F003AA61B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 311A34B62A51CB6F003AA61B /* GoogleService-Info.plist */; };
+		311A34B92A52F2AF003AA61B /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A34B82A52F2AF003AA61B /* Tasks.swift */; };
+		311A34BB2A53008D003AA61B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A34BA2A53008D003AA61B /* HomeViewModel.swift */; };
+		311A34C12A5440EC003AA61B /* TaskDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A34C02A5440EB003AA61B /* TaskDetailsVC.swift */; };
+		311A34C32A544175003AA61B /* TaskDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A34C22A544175003AA61B /* TaskDetailsScreen.swift */; };
+		311A34C52A544187003AA61B /* TaskDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A34C42A544187003AA61B /* TaskDetailsViewModel.swift */; };
+		311A34C82A54465D003AA61B /* NavViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A34C72A54462B003AA61B /* NavViewDetails.swift */; };
+		31A7213D2A4E2CEC000CB8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7213C2A4E2CEC000CB8C0 /* AppDelegate.swift */; };
+		31A7213F2A4E2CEC000CB8C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7213E2A4E2CEC000CB8C0 /* SceneDelegate.swift */; };
+		31A721412A4E2CEC000CB8C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A721402A4E2CEC000CB8C0 /* HomeVC.swift */; };
+		31A721462A4E2CEE000CB8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A721452A4E2CEE000CB8C0 /* Assets.xcassets */; };
+		31A721492A4E2CEE000CB8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A721472A4E2CEE000CB8C0 /* LaunchScreen.storyboard */; };
+		31A721572A4EF9E5000CB8C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A721562A4EF9E5000CB8C0 /* HomeScreen.swift */; };
+		31A7215A2A4EFA2B000CB8C0 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A721592A4EFA2B000CB8C0 /* NavView.swift */; };
+		31A721602A4EFAA7000CB8C0 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7215F2A4EFAA7000CB8C0 /* TabBarVC.swift */; };
+		31A7216A2A4F0944000CB8C0 /* ToDoLlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A721692A4F0944000CB8C0 /* ToDoLlistTableViewCell.swift */; };
+		31A7216C2A4F0976000CB8C0 /* ToDoLlistTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7216B2A4F0976000CB8C0 /* ToDoLlistTableViewCellScreen.swift */; };
+		31A7216F2A4F0AAD000CB8C0 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7216E2A4F0AAD000CB8C0 /* DatePickerView.swift */; };
+		31A721712A4F19B8000CB8C0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A721702A4F19B8000CB8C0 /* UIView+Extensions.swift */; };
+		31F314C82A50EE7A00F117ED /* CreateTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F314C42A50EE3E00F117ED /* CreateTaskVC.swift */; };
+		31F314C92A50EE7C00F117ED /* CreateTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F314C72A50EE3E00F117ED /* CreateTaskScreen.swift */; };
+		31F314CB2A51926700F117ED /* CreateTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F314CA2A51926700F117ED /* CreateTaskViewModel.swift */; };
+		31F314CF2A51C76100F117ED /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F314CE2A51C76100F117ED /* Alerts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		311A34B62A51CB6F003AA61B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		311A34B82A52F2AF003AA61B /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		311A34BA2A53008D003AA61B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		311A34C02A5440EB003AA61B /* TaskDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsVC.swift; sourceTree = "<group>"; };
+		311A34C22A544175003AA61B /* TaskDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsScreen.swift; sourceTree = "<group>"; };
+		311A34C42A544187003AA61B /* TaskDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewModel.swift; sourceTree = "<group>"; };
+		311A34C72A54462B003AA61B /* NavViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewDetails.swift; sourceTree = "<group>"; };
+		31A721392A4E2CEC000CB8C0 /* DesafioChatgpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioChatgpt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A7213C2A4E2CEC000CB8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31A7213E2A4E2CEC000CB8C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31A721402A4E2CEC000CB8C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		31A721452A4E2CEE000CB8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31A721482A4E2CEE000CB8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31A7214A2A4E2CEE000CB8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A721562A4EF9E5000CB8C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		31A721592A4EFA2B000CB8C0 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		31A7215F2A4EFAA7000CB8C0 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		31A721692A4F0944000CB8C0 /* ToDoLlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoLlistTableViewCell.swift; sourceTree = "<group>"; };
+		31A7216B2A4F0976000CB8C0 /* ToDoLlistTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoLlistTableViewCellScreen.swift; sourceTree = "<group>"; };
+		31A7216E2A4F0AAD000CB8C0 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		31A721702A4F19B8000CB8C0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		31F314C42A50EE3E00F117ED /* CreateTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskVC.swift; sourceTree = "<group>"; };
+		31F314C72A50EE3E00F117ED /* CreateTaskScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskScreen.swift; sourceTree = "<group>"; };
+		31F314CA2A51926700F117ED /* CreateTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewModel.swift; sourceTree = "<group>"; };
+		31F314CE2A51C76100F117ED /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		3F9865603B2E4F9C75771024 /* Pods-DesafioChatgpt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioChatgpt.release.xcconfig"; path = "Target Support Files/Pods-DesafioChatgpt/Pods-DesafioChatgpt.release.xcconfig"; sourceTree = "<group>"; };
+		59316C42B04CBA99DA65A638 /* Pods-DesafioChatgpt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioChatgpt.debug.xcconfig"; path = "Target Support Files/Pods-DesafioChatgpt/Pods-DesafioChatgpt.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E53112A4CFFC75CF4FC942 /* Pods_DesafioChatgpt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioChatgpt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31A721362A4E2CEC000CB8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B85A228A28A655A93C86ED5 /* Pods_DesafioChatgpt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17819974DFD31199A7FD74BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E53112A4CFFC75CF4FC942 /* Pods_DesafioChatgpt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		311A34BC2A544037003AA61B /* TaskDetails */ = {
+			isa = PBXGroup;
+			children = (
+				311A34C62A54462B003AA61B /* NavView */,
+				311A34BF2A5440BE003AA61B /* ViewModel */,
+				311A34BE2A5440B9003AA61B /* Screen */,
+				311A34BD2A5440B4003AA61B /* VC */,
+			);
+			path = TaskDetails;
+			sourceTree = "<group>";
+		};
+		311A34BD2A5440B4003AA61B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				311A34C02A5440EB003AA61B /* TaskDetailsVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		311A34BE2A5440B9003AA61B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				311A34C22A544175003AA61B /* TaskDetailsScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		311A34BF2A5440BE003AA61B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				311A34C42A544187003AA61B /* TaskDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		311A34C62A54462B003AA61B /* NavView */ = {
+			isa = PBXGroup;
+			children = (
+				311A34C72A54462B003AA61B /* NavViewDetails.swift */,
+			);
+			path = NavView;
+			sourceTree = "<group>";
+		};
+		31A721302A4E2CEC000CB8C0 = {
+			isa = PBXGroup;
+			children = (
+				31A7213B2A4E2CEC000CB8C0 /* DesafioChatgpt */,
+				31A7213A2A4E2CEC000CB8C0 /* Products */,
+				60F5539B4F4025D32DD8C876 /* Pods */,
+				17819974DFD31199A7FD74BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31A7213A2A4E2CEC000CB8C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31A721392A4E2CEC000CB8C0 /* DesafioChatgpt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A7213B2A4E2CEC000CB8C0 /* DesafioChatgpt */ = {
+			isa = PBXGroup;
+			children = (
+				31A721642A4F048E000CB8C0 /* Utils */,
+				31A721522A4EF949000CB8C0 /* Model */,
+				31A7215C2A4EFA5B000CB8C0 /* TaBar */,
+				31A721632A4F0264000CB8C0 /* Features */,
+				31A7213C2A4E2CEC000CB8C0 /* AppDelegate.swift */,
+				31A7213E2A4E2CEC000CB8C0 /* SceneDelegate.swift */,
+				311A34B62A51CB6F003AA61B /* GoogleService-Info.plist */,
+				31A721452A4E2CEE000CB8C0 /* Assets.xcassets */,
+				31A721472A4E2CEE000CB8C0 /* LaunchScreen.storyboard */,
+				31A7214A2A4E2CEE000CB8C0 /* Info.plist */,
+			);
+			path = DesafioChatgpt;
+			sourceTree = "<group>";
+		};
+		31A721512A4EF940000CB8C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31A721582A4EFA12000CB8C0 /* NavView */,
+				31A721552A4EF992000CB8C0 /* ViewModel */,
+				31A721532A4EF974000CB8C0 /* Screen */,
+				31A721542A4EF97B000CB8C0 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		31A721522A4EF949000CB8C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				311A34B82A52F2AF003AA61B /* Tasks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31A721532A4EF974000CB8C0 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				31A721562A4EF9E5000CB8C0 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		31A721542A4EF97B000CB8C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				31A721402A4E2CEC000CB8C0 /* HomeVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		31A721552A4EF992000CB8C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				311A34BA2A53008D003AA61B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31A721582A4EFA12000CB8C0 /* NavView */ = {
+			isa = PBXGroup;
+			children = (
+				31A721592A4EFA2B000CB8C0 /* NavView.swift */,
+			);
+			path = NavView;
+			sourceTree = "<group>";
+		};
+		31A7215C2A4EFA5B000CB8C0 /* TaBar */ = {
+			isa = PBXGroup;
+			children = (
+				31A7215F2A4EFAA7000CB8C0 /* TabBarVC.swift */,
+			);
+			path = TaBar;
+			sourceTree = "<group>";
+		};
+		31A721612A4EFBD0000CB8C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		31A721622A4F025A000CB8C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				31A721682A4F0916000CB8C0 /* Screen */,
+				31A721692A4F0944000CB8C0 /* ToDoLlistTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		31A721632A4F0264000CB8C0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				31A721622A4F025A000CB8C0 /* Cell */,
+				311A34BC2A544037003AA61B /* TaskDetails */,
+				31A721722A4F64A7000CB8C0 /* CreateTask */,
+				31A721512A4EF940000CB8C0 /* Home */,
+				31A721612A4EFBD0000CB8C0 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		31A721642A4F048E000CB8C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				31F314CD2A51C75200F117ED /* Alerts */,
+				31F314CC2A51C74600F117ED /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		31A721682A4F0916000CB8C0 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				31A7216B2A4F0976000CB8C0 /* ToDoLlistTableViewCellScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		31A7216D2A4F0A8C000CB8C0 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				31A7216E2A4F0AAD000CB8C0 /* DatePickerView.swift */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		31A721722A4F64A7000CB8C0 /* CreateTask */ = {
+			isa = PBXGroup;
+			children = (
+				31A7216D2A4F0A8C000CB8C0 /* DatePickerView */,
+				31F314C52A50EE3E00F117ED /* ViewModel */,
+				31F314C62A50EE3E00F117ED /* Screen */,
+				31F314C32A50EE3E00F117ED /* VC */,
+			);
+			path = CreateTask;
+			sourceTree = "<group>";
+		};
+		31F314C32A50EE3E00F117ED /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				31F314C42A50EE3E00F117ED /* CreateTaskVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		31F314C52A50EE3E00F117ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31F314CA2A51926700F117ED /* CreateTaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31F314C62A50EE3E00F117ED /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				31F314C72A50EE3E00F117ED /* CreateTaskScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		31F314CC2A51C74600F117ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				31A721702A4F19B8000CB8C0 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31F314CD2A51C75200F117ED /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				31F314CE2A51C76100F117ED /* Alerts.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		60F5539B4F4025D32DD8C876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59316C42B04CBA99DA65A638 /* Pods-DesafioChatgpt.debug.xcconfig */,
+				3F9865603B2E4F9C75771024 /* Pods-DesafioChatgpt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31A721382A4E2CEC000CB8C0 /* DesafioChatgpt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A7214D2A4E2CEE000CB8C0 /* Build configuration list for PBXNativeTarget "DesafioChatgpt" */;
+			buildPhases = (
+				0D5504030810B3DD40B34364 /* [CP] Check Pods Manifest.lock */,
+				31A721352A4E2CEC000CB8C0 /* Sources */,
+				31A721362A4E2CEC000CB8C0 /* Frameworks */,
+				31A721372A4E2CEC000CB8C0 /* Resources */,
+				8C7A03D7749BB104AB6385C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioChatgpt;
+			productName = DesafioChatgpt;
+			productReference = 31A721392A4E2CEC000CB8C0 /* DesafioChatgpt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31A721312A4E2CEC000CB8C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					31A721382A4E2CEC000CB8C0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 31A721342A4E2CEC000CB8C0 /* Build configuration list for PBXProject "DesafioChatgpt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31A721302A4E2CEC000CB8C0;
+			productRefGroup = 31A7213A2A4E2CEC000CB8C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31A721382A4E2CEC000CB8C0 /* DesafioChatgpt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31A721372A4E2CEC000CB8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A721492A4E2CEE000CB8C0 /* LaunchScreen.storyboard in Resources */,
+				311A34B72A51CB6F003AA61B /* GoogleService-Info.plist in Resources */,
+				31A721462A4E2CEE000CB8C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D5504030810B3DD40B34364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioChatgpt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7A03D7749BB104AB6385C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioChatgpt/Pods-DesafioChatgpt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioChatgpt/Pods-DesafioChatgpt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioChatgpt/Pods-DesafioChatgpt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31A721352A4E2CEC000CB8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A721572A4EF9E5000CB8C0 /* HomeScreen.swift in Sources */,
+				31A721412A4E2CEC000CB8C0 /* HomeVC.swift in Sources */,
+				31A721712A4F19B8000CB8C0 /* UIView+Extensions.swift in Sources */,
+				311A34BB2A53008D003AA61B /* HomeViewModel.swift in Sources */,
+				31F314C92A50EE7C00F117ED /* CreateTaskScreen.swift in Sources */,
+				311A34C12A5440EC003AA61B /* TaskDetailsVC.swift in Sources */,
+				31A7213D2A4E2CEC000CB8C0 /* AppDelegate.swift in Sources */,
+				31A7216A2A4F0944000CB8C0 /* ToDoLlistTableViewCell.swift in Sources */,
+				31A7215A2A4EFA2B000CB8C0 /* NavView.swift in Sources */,
+				311A34C32A544175003AA61B /* TaskDetailsScreen.swift in Sources */,
+				31F314CB2A51926700F117ED /* CreateTaskViewModel.swift in Sources */,
+				31A7216F2A4F0AAD000CB8C0 /* DatePickerView.swift in Sources */,
+				31A721602A4EFAA7000CB8C0 /* TabBarVC.swift in Sources */,
+				311A34C82A54465D003AA61B /* NavViewDetails.swift in Sources */,
+				31F314C82A50EE7A00F117ED /* CreateTaskVC.swift in Sources */,
+				31A7216C2A4F0976000CB8C0 /* ToDoLlistTableViewCellScreen.swift in Sources */,
+				31F314CF2A51C76100F117ED /* Alerts.swift in Sources */,
+				311A34B92A52F2AF003AA61B /* Tasks.swift in Sources */,
+				311A34C52A544187003AA61B /* TaskDetailsViewModel.swift in Sources */,
+				31A7213F2A4E2CEC000CB8C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31A721472A4E2CEE000CB8C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31A721482A4E2CEE000CB8C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31A7214B2A4E2CEE000CB8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31A7214C2A4E2CEE000CB8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31A7214E2A4E2CEE000CB8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59316C42B04CBA99DA65A638 /* Pods-DesafioChatgpt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMW6W6YPGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioChatgpt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SergioMacedo.DesafioChatgpt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31A7214F2A4E2CEE000CB8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9865603B2E4F9C75771024 /* Pods-DesafioChatgpt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMW6W6YPGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioChatgpt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SergioMacedo.DesafioChatgpt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31A721342A4E2CEC000CB8C0 /* Build configuration list for PBXProject "DesafioChatgpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A7214B2A4E2CEE000CB8C0 /* Debug */,
+				31A7214C2A4E2CEE000CB8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31A7214D2A4E2CEE000CB8C0 /* Build configuration list for PBXNativeTarget "DesafioChatgpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A7214E2A4E2CEE000CB8C0 /* Debug */,
+				31A7214F2A4E2CEE000CB8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31A721312A4E2CEC000CB8C0 /* Project object */;
+}
